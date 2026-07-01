@@ -251,6 +251,7 @@ p{ margin:0; line-height: 1.7; }
 .contact__phones a{ transition: color .3s; }
 .contact__phones a:hover{ color: var(--magenta); }
 .contact__phones span{ margin: 0 14px; color: var(--brown-soft); font-family: var(--font-body); }
+.contact__address{ margin-top: 22px; font-size: 0.9rem; color: var(--brown-soft); letter-spacing: 0.02em; }
 
 /* ---------- Footer ---------- */
 .footer{ background: var(--brown); color: rgba(255,255,255,0.75); padding: 26px 24px; }
