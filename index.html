@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ohmegato — Pâtisserie artisanale faite maison</title>
+<meta name="description" content="Ohmegato by Alima — muffins, brownies, cookies, cakes et moelleux faits maison à Dakar, Sénégal.">
+<link rel="icon" href="assets/images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#accueil" class="nav__brand">
+      <img src="assets/images/logo.png" alt="Ohmegato" class="nav__logo">
+      <span>Ohmegato</span>
+    </a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#accueil">Accueil</a>
+      <a href="#histoire">Notre histoire</a>
+      <a href="#creations">Nos créations</a>
+      <a href="#tarifs">Tarifs</a>
+      <a href="#contact">Contact</a>
+      <a href="https://www.instagram.com/ohmegato" target="_blank" rel="noopener" class="nav__insta" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 2.1.3 2.9.6.8.3 1.4.7 2.1 1.4.7.7 1.1 1.3 1.4 2.1.3.8.5 1.7.6 2.9.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 2.1-.6 2.9-.3.8-.7 1.4-1.4 2.1-.7.7-1.3 1.1-2.1 1.4-.8.3-1.7.5-2.9.6-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-2.1-.3-2.9-.6-.8-.3-1.4-.7-2.1-1.4-.7-.7-1.1-1.3-1.4-2.1-.3-.8-.5-1.7-.6-2.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.3-2.1.6-2.9.3-.8.7-1.4 1.4-2.1.7-.7 1.3-1.1 2.1-1.4.8-.3 1.7-.5 2.9-.6C8.4 2.2 8.8 2.2 12 2.2M12 0C8.7 0 8.3 0 7 .1 5.7.1 4.5.4 3.5.8c-1 .4-1.9 1-2.7 1.8C0 3.4-.6 4.3-1 5.3c-.4 1-.7 2.2-.8 3.5C-1.9 10.1-1.9 10.5-1.9 12s0 1.9.1 3.2c.1 1.3.4 2.5.8 3.5.4 1 1 1.9 1.8 2.7.8.8 1.7 1.4 2.7 1.8 1 .4 2.2.7 3.5.8 1.3.1 1.7.1 5 .1s3.7 0 5-.1c1.3-.1 2.5-.4 3.5-.8 1-.4 1.9-1 2.7-1.8.8-.8 1.4-1.7 1.8-2.7.4-1 .7-2.2.8-3.5.1-1.3.1-1.7.1-5s0-1.9-.1-3.2c-.1-1.3-.4-2.5-.8-3.5-.4-1-1-1.9-1.8-2.7C21.6.8 20.7.2 19.7-.2c-1-.4-2.2-.7-3.5-.8C15 0 14.6 0 12 0" transform="translate(2 2)"/><circle cx="12" cy="12" r="3.2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="18.4" cy="5.6" r="1.1" fill="currentColor"/></svg>
+      </a>
+    </nav>
+    <button class="nav__burger" id="navBurger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" id="accueil">
+    <div class="hero__bg" style="background-image:url('assets/images/muffin-choco-hand.jpeg')"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content reveal">
+      <img src="assets/images/logo.png" alt="Ohmegato — Homemade Baking by Alima" class="hero__logo">
+      <h1>Des gourmandises<br><em>faites maison,</em><br>avec amour.</h1>
+      <p class="hero__subtitle">Muffins, brownies, cookies &amp; moelleux artisanaux — pensés et cuisinés à Dakar.</p>
+      <div class="hero__actions">
+        <a href="#creations" class="btn btn--primary">Découvrir nos créations</a>
+        <a href="#tarifs" class="btn btn--ghost">Voir les tarifs</a>
+      </div>
+    </div>
+    <a href="#histoire" class="hero__scroll" aria-label="Défiler vers le bas">
+      <span></span>
+    </a>
+  </section>
+
+  <section class="story" id="histoire">
+    <div class="story__inner reveal">
+      <span class="eyebrow">Notre histoire</span>
+      <h2>La pâtisserie faite maison, <br>revisitée par Alima.</h2>
+      <p>
+        Ohmegato est né d'une passion simple&nbsp;: celle de partager des douceurs authentiques,
+        préparées à la main avec des ingrédients choisis avec soin. Chaque muffin, chaque brownie,
+        chaque part de moelleux est confectionné en petite quantité, pour garder ce goût
+        « fait maison » qui fait toute la différence.
+      </p>
+      <span class="badge">Made in Senegal 🇸🇳</span>
+    </div>
+  </section>
+
+  <section class="creations" id="creations">
+    <div class="section__head reveal">
+      <span class="eyebrow">Nos créations</span>
+      <h2>Une gourmandise pour<br>chaque envie</h2>
+    </div>
+
+    <div class="gallery">
+
+      <article class="card card--photo reveal">
+        <div class="card__media">
+          <img src="assets/images/moelleux-chocolat.jpeg" alt="Moelleux au chocolat, coulant au coeur fondant">
+        </div>
+        <div class="card__body">
+          <h3>Moelleux au chocolat</h3>
+          <p>Un cœur fondant, nappé d'un chocolat qui coule à souhait. Notre grand classique.</p>
+          <span class="card__price">Dès 1.200 FCFA</span>
+        </div>
+      </article>
+
+      <article class="card card--photo reveal">
+        <div class="card__media">
+          <img src="assets/images/moelleux-pommes.jpeg" alt="Moelleux aux pommes caramélisées">
+        </div>
+        <div class="card__body">
+          <h3>Moelleux aux pommes</h3>
+          <p>Des morceaux de pommes fondantes dans un moelleux léger, délicatement caramélisé.</p>
+          <span class="card__price">Dès 1.200 FCFA</span>
+        </div>
+      </article>
+
+      <article class="card card--photo reveal">
+        <div class="card__media">
+          <img src="assets/images/muffin-choco-hand.jpeg" alt="Muffin aux pépites de chocolat">
+        </div>
+        <div class="card__body">
+          <h3>Muffins pépites de chocolat</h3>
+          <p>Moelleux, généreux en pépites de chocolat — le compagnon parfait du petit-déjeuner.</p>
+          <span class="card__price">Box de 6 dès 2.500 FCFA</span>
+        </div>
+      </article>
+
+      <article class="card card--placeholder reveal">
+        <div class="card__media card__media--placeholder">
+          <span>🍪</span>
+        </div>
+        <div class="card__body">
+          <h3>Cookies</h3>
+          <p>Craquants à l'extérieur, moelleux à l'intérieur. Disponibles à l'unité ou en box.</p>
+          <span class="card__price">Dès 800 FCFA</span>
+        </div>
+      </article>
+
+      <article class="card card--placeholder reveal">
+        <div class="card__media card__media--placeholder">
+          <span>🍫</span>
+        </div>
+        <div class="card__body">
+          <h3>Brownies</h3>
+          <p>Denses, riches et intensément chocolatés, découpés en carrés généreux.</p>
+          <span class="card__price">Dès 1.000 FCFA</span>
+        </div>
+      </article>
+
+      <article class="card card--placeholder reveal">
+        <div class="card__media card__media--placeholder">
+          <span>🍊</span>
+        </div>
+        <div class="card__body">
+          <h3>Cake à l'orange</h3>
+          <p>Un cake moelleux parfumé à l'orange fraîche, en tranches ou en barre entière.</p>
+          <span class="card__price">Dès 1.000 FCFA</span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="tarifs" id="tarifs">
+    <div class="section__head reveal">
+      <span class="eyebrow">Price list</span>
+      <h2>Nos tarifs</h2>
+    </div>
+
+    <div class="pricelist reveal">
+
+      <div class="pricelist__group">
+        <h3>Moelleux au chocolat</h3>
+        <div class="pricelist__row"><span>La part</span><i></i><strong>1.200 FCFA</strong></div>
+        <div class="pricelist__row"><span>Entier (8 parts)</span><i></i><strong>8.000 FCFA</strong></div>
+      </div>
+
+      <div class="pricelist__group">
+        <h3>Cookies</h3>
+        <div class="pricelist__row"><span>L'unité</span><i></i><strong>800 FCFA</strong></div>
+        <div class="pricelist__row"><span>Box de 3</span><i></i><strong>2.200 FCFA</strong></div>
+        <div class="pricelist__row"><span>Box de 6</span><i></i><strong>4.000 FCFA</strong></div>
+      </div>
+
+      <div class="pricelist__group">
+        <h3>Brownies</h3>
+        <div class="pricelist__row"><span>Box de 4 carrés</span><i></i><strong>1.000 FCFA</strong></div>
+        <div class="pricelist__row"><span>Box de 10 carrés</span><i></i><strong>2.200 FCFA</strong></div>
+        <div class="pricelist__row"><span>Box de 36 carrés</span><i></i><strong>7.500 FCFA</strong></div>
+      </div>
+
+      <div class="pricelist__group">
+        <h3>Cake à l'orange</h3>
+        <div class="pricelist__row"><span>4 tranches</span><i></i><strong>1.000 FCFA</strong></div>
+        <div class="pricelist__row"><span>Barre entière</span><i></i><strong>2.500 FCFA</strong></div>
+      </div>
+
+      <div class="pricelist__group">
+        <h3>Muffins pépites de chocolat</h3>
+        <div class="pricelist__row"><span>Box de 6</span><i></i><strong>2.500 FCFA</strong></div>
+        <div class="pricelist__row"><span>Box de 12</span><i></i><strong>4.500 FCFA</strong></div>
+      </div>
+
+      <div class="pricelist__group">
+        <h3>Moelleux aux pommes</h3>
+        <div class="pricelist__row"><span>La part</span><i></i><strong>1.200 FCFA</strong></div>
+        <div class="pricelist__row"><span>Entier (8 parts)</span><i></i><strong>8.000 FCFA</strong></div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="insta">
+    <div class="insta__inner reveal">
+      <h2>Suivez nos gourmandises<br>au quotidien</h2>
+      <p>Retrouvez toutes nos créations, nos coulisses et nos nouveautés sur Instagram.</p>
+      <a href="https://www.instagram.com/ohmegato" target="_blank" rel="noopener" class="btn btn--primary btn--insta">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 2.1.3 2.9.6.8.3 1.4.7 2.1 1.4.7.7 1.1 1.3 1.4 2.1.3.8.5 1.7.6 2.9.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 2.1-.6 2.9-.3.8-.7 1.4-1.4 2.1-.7.7-1.3 1.1-2.1 1.4-.8.3-1.7.5-2.9.6-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-2.1-.3-2.9-.6-.8-.3-1.4-.7-2.1-1.4-.7-.7-1.1-1.3-1.4-2.1-.3-.8-.5-1.7-.6-2.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.3-2.1.6-2.9.3-.8.7-1.4 1.4-2.1.7-.7 1.3-1.1 2.1-1.4.8-.3 1.7-.5 2.9-.6C8.4 2.2 8.8 2.2 12 2.2M12 0C8.7 0 8.3 0 7 .1 5.7.1 4.5.4 3.5.8c-1 .4-1.9 1-2.7 1.8C0 3.4-.6 4.3-1 5.3c-.4 1-.7 2.2-.8 3.5C-1.9 10.1-1.9 10.5-1.9 12s0 1.9.1 3.2c.1 1.3.4 2.5.8 3.5.4 1 1 1.9 1.8 2.7.8.8 1.7 1.4 2.7 1.8 1 .4 2.2.7 3.5.8 1.3.1 1.7.1 5 .1s3.7 0 5-.1c1.3-.1 2.5-.4 3.5-.8 1-.4 1.9-1 2.7-1.8.8-.8 1.4-1.7 1.8-2.7.4-1 .7-2.2.8-3.5.1-1.3.1-1.7.1-5s0-1.9-.1-3.2c-.1-1.3-.4-2.5-.8-3.5-.4-1-1-1.9-1.8-2.7C21.6.8 20.7.2 19.7-.2c-1-.4-2.2-.7-3.5-.8C15 0 14.6 0 12 0" transform="translate(2 2)"/><circle cx="12" cy="12" r="3.2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="18.4" cy="5.6" r="1.1" fill="currentColor"/></svg>
+        @ohmegato
+      </a>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact__inner reveal">
+      <img src="assets/images/logo.png" alt="Ohmegato" class="contact__logo">
+      <h2>Une commande, une envie ?</h2>
+      <p>Contactez notre service commercial, du lundi au samedi.</p>
+      <div class="contact__phones">
+        <a href="tel:+221778419948">77 884 19 48</a>
+        <span>—</span>
+        <a href="tel:+221700103050">70 010 30 50</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <span>© <span id="year"></span> Ohmegato — Homemade Baking by Alima</span>
+    <a href="https://www.instagram.com/ohmegato" target="_blank" rel="noopener">Instagram</a>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
