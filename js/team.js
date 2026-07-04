@@ -10,17 +10,28 @@
 const OHMEGATO_TEAM = {
 
   default: {
-    name: "Prénom Nom",
-    role: "Fonction",
-    phone: "+221771234567",
-    phoneDisplay: "77 123 45 67",
-    email: "prenom.nom@ohmegato.sn",
+    name: "Alimatou S. Thiam",
+    role: "Fondatrice",
+    phone: "+221780103050",
+    phoneDisplay: "78 010 30 50",
+    email: "alimatousadiyathiam@esp.sn",
     website: "ohmegato.sn",
     websiteUrl: "https://www.instagram.com/ohmegato",
-    photo: ""
+    photo: "assets/images/team/alimatou-thiam.jpg"
+  },
+
+  "alimatou-thiam": {
+    name: "Alimatou S. Thiam",
+    role: "Fondatrice",
+    phone: "+221780103050",
+    phoneDisplay: "78 010 30 50",
+    email: "alimatousadiyathiam@esp.sn",
+    website: "ohmegato.sn",
+    websiteUrl: "https://www.instagram.com/ohmegato",
+    photo: "assets/images/team/alimatou-thiam.jpg"
   }
 
-  // exemple :
+  // exemple pour ajouter un(e) autre employé(e) :
   // "fatou-diop": {
   //   name: "Fatou Diop",
   //   role: "Responsable Commerciale",
