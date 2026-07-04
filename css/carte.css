@@ -100,10 +100,11 @@
 }
 
 .carte__divider{
-  max-width: 300px; margin: 26px auto 0;
-  color: var(--carte-accent);
+  display:flex; align-items:center; gap: 10px;
+  max-width: 280px; margin: 26px auto 0;
 }
-.carte__divider svg{ width:100%; height:16px; display:block; }
+.carte__divider span{ flex:1; height:1px; background: var(--carte-line); }
+.carte__divider img{ height: 17px; width:auto; flex-shrink:0; }
 
 .carte__links{
   margin-top: 30px;
