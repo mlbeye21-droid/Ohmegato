@@ -1,5 +1,23 @@
 /* ---------- Carte de visite digitale ---------- */
 
+/* self-hosted so the rounded display face always renders, regardless of third-party font access */
+@font-face{
+  font-family: 'Baloo 2'; font-style: normal; font-weight: 500; font-display: swap;
+  src: url('../assets/fonts/Baloo2-500.woff2') format('woff2');
+}
+@font-face{
+  font-family: 'Baloo 2'; font-style: normal; font-weight: 600; font-display: swap;
+  src: url('../assets/fonts/Baloo2-600.woff2') format('woff2');
+}
+@font-face{
+  font-family: 'Baloo 2'; font-style: normal; font-weight: 700; font-display: swap;
+  src: url('../assets/fonts/Baloo2-700.woff2') format('woff2');
+}
+@font-face{
+  font-family: 'Baloo 2'; font-style: normal; font-weight: 800; font-display: swap;
+  src: url('../assets/fonts/Baloo2-800.woff2') format('woff2');
+}
+
 :root{
   --carte-font: 'Baloo 2', var(--font-body);
   --carte-accent: #E2899E;
@@ -82,11 +100,10 @@
 }
 
 .carte__divider{
-  display:flex; align-items:center; gap: 14px;
-  max-width: 280px; margin: 26px auto 0;
+  max-width: 300px; margin: 26px auto 0;
   color: var(--carte-accent);
 }
-.carte__divider span{ flex:1; height:1px; background: var(--carte-line); }
+.carte__divider svg{ width:100%; height:16px; display:block; }
 
 .carte__links{
   margin-top: 30px;
@@ -138,10 +155,9 @@
 .carte__brandIcon{
   flex-shrink:0;
   width: 54px; height:54px; border-radius:50%;
-  background: var(--carte-accent-soft);
-  display:flex; align-items:center; justify-content:center;
+  overflow:hidden;
 }
-.carte__brandIcon svg{ width:28px; height:28px; }
+.carte__brandIcon img{ width:100%; height:100%; object-fit:cover; border-radius:50%; }
 .carte__brandText{ display:flex; flex-direction:column; align-items:flex-start; text-align:left; }
 .carte__brandText strong{
   font-family: var(--carte-font); font-weight:700; font-size: 1.2rem; color: var(--brown); line-height:1.2;
