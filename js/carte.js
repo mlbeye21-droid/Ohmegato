@@ -34,6 +34,9 @@ const emailLink = document.getElementById('carteEmail');
 emailLink.href = `mailto:${employee.email}`;
 document.getElementById('carteEmailText').textContent = employee.email;
 
+const whatsappLink = document.getElementById('carteWhatsapp');
+whatsappLink.href = `https://wa.me/${employee.phone.replace(/[^\d]/g, '')}`;
+
 const websiteLink = document.getElementById('carteWebsite');
 websiteLink.href = employee.websiteUrl;
 document.getElementById('carteWebsiteText').textContent = employee.website;

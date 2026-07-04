@@ -9,25 +9,33 @@
 <link rel="icon" href="assets/images/logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/carte.css">
 </head>
 <body class="carte-page">
 
 <div class="carte__pattern" aria-hidden="true"></div>
-<div class="carte__wave" aria-hidden="true"></div>
 
 <main class="carte">
 
   <div class="carte__photo">
     <img id="cartePhotoImg" alt="" hidden>
     <span id="carteInitials" class="carte__initials"></span>
-    <span class="carte__badge"><img src="assets/images/logo.png" alt="Ohmegato"></span>
+    <span class="carte__badge">
+      <svg viewBox="0 0 32 32"><path d="M8 16h16l-2.2 11.5a2.6 2.6 0 0 1-2.6 2.1h-6.4a2.6 2.6 0 0 1-2.6-2.1z" fill="#3A2415"/><circle cx="12" cy="13" r="5.2" fill="#3A2415"/><circle cx="20" cy="13" r="5.2" fill="#3A2415"/><circle cx="16" cy="10.5" r="5.6" fill="#3A2415"/><circle cx="12.3" cy="9.5" r="1.15" fill="#fff"/><circle cx="19.5" cy="8.3" r="1.15" fill="#fff"/><circle cx="16" cy="12.5" r="1.15" fill="#fff"/></svg>
+    </span>
   </div>
 
   <h1 class="carte__name" id="carteName">Prénom Nom</h1>
-  <p class="carte__role" id="carteRole">Fonction — Ohmegato</p>
+  <p class="carte__role" id="carteRole">Fonction</p>
+  <p class="carte__org">Ohmegato</p>
+
+  <div class="carte__divider" aria-hidden="true">
+    <span></span>
+    <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12 21s-7-4.35-9.5-8.5C.5 9 2 5 6 5c2 0 3.5 1.2 4 2.2C10.5 6.2 12 5 14 5c4 0 5.5 4 3.5 7.5C19 16.65 12 21 12 21z"/></svg>
+    <span></span>
+  </div>
 
   <div class="carte__links">
 
@@ -45,6 +53,13 @@
       <span class="carte__pillText"><strong>Email</strong> <i>•</i> <span id="carteEmailText">—</span></span>
     </a>
 
+    <a class="carte__pill" id="carteWhatsapp" href="#" target="_blank" rel="noopener">
+      <span class="carte__icon">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.7-1.2A9 9 0 1 0 12 3z"/><path d="M8.5 8.8c.2-.5.5-.5.8-.5h.6c.2 0 .5 0 .7.5.2.5.7 1.6.7 1.8.1.1.1.3 0 .4-.1.2-.2.3-.3.5-.2.2-.3.3-.1.6.6 1 1.3 1.7 2.3 2.2.2.1.4.1.5-.1.2-.2.6-.7.8-.9.2-.2.3-.2.6-.1.2.1 1.5.7 1.8.8.2.1.4.2.4.3 0 .2 0 .9-.3 1.3-.3.4-1.2.9-1.7.9-.5 0-1.2-.1-3.1-1-2.6-1.1-4.3-3.7-4.4-3.9-.1-.2-1-1.3-1-2.5 0-1.2.6-1.8.8-2z" fill="currentColor" stroke="none"/></svg>
+      </span>
+      <span class="carte__pillText"><strong>WhatsApp</strong> <i>•</i> <span>Discutons ensemble</span></span>
+    </a>
+
     <a class="carte__pill" id="carteWebsite" href="#" target="_blank" rel="noopener">
       <span class="carte__icon">
         <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.7 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.7-3.8-9S9.5 5.6 12 3z"/></svg>
@@ -60,6 +75,17 @@
     </span>
     Enregistrer dans mes contacts
   </button>
+
+  <div class="carte__brand">
+    <span class="carte__brandIcon">
+      <svg viewBox="0 0 32 32"><path d="M8 16h16l-2.2 11.5a2.6 2.6 0 0 1-2.6 2.1h-6.4a2.6 2.6 0 0 1-2.6-2.1z" fill="#3A2415"/><circle cx="12" cy="13" r="5.2" fill="#3A2415"/><circle cx="20" cy="13" r="5.2" fill="#3A2415"/><circle cx="16" cy="10.5" r="5.6" fill="#3A2415"/><circle cx="12.3" cy="9.5" r="1.15" fill="#fff"/><circle cx="19.5" cy="8.3" r="1.15" fill="#fff"/><circle cx="16" cy="12.5" r="1.15" fill="#fff"/></svg>
+    </span>
+    <span class="carte__brandText">
+      <strong>Ohmegato</strong>
+      <em>Homemade baking</em>
+      <small>By Alima</small>
+    </span>
+  </div>
 
   <p class="carte__footer">© <span id="carteYear"></span> Ohmegato · Carte de visite digitale</p>
 
