@@ -111,12 +111,12 @@
   display:flex; flex-direction:column; gap: 16px;
 }
 .carte__pill{
-  display:flex; align-items:center; gap: 16px;
+  display:flex; align-items:center; justify-content:center; gap: 16px;
   background: var(--white);
   border: 1.8px solid var(--carte-accent);
   border-radius: 999px;
   padding: 17px 24px;
-  text-align:left;
+  text-align:center;
   transition: transform .3s var(--ease), background .3s var(--ease);
 }
 .carte__pill:hover{
