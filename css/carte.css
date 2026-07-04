@@ -145,13 +145,15 @@
 .carte__brandText{ display:flex; flex-direction:column; align-items:flex-start; text-align:left; }
 .carte__brandText strong{
   font-family: var(--carte-font); font-weight:700; font-size: 1.2rem; color: var(--brown); line-height:1.2;
+  text-transform: uppercase; letter-spacing: 0.02em;
 }
 .carte__brandText em{
   font-style:normal; font-family: var(--carte-font); font-weight:600;
   font-size: 0.68rem; letter-spacing: 0.05em; text-transform:uppercase; color: var(--carte-accent);
 }
 .carte__brandText small{
-  font-size: 0.72rem; color: var(--brown-soft); letter-spacing: 0.03em;
+  font-family: var(--carte-font); font-weight:600;
+  font-size: 0.7rem; color: var(--brown); letter-spacing: 0.04em; text-transform: uppercase;
 }
 
 .carte__footer{
